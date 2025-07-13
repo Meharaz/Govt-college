@@ -7,10 +7,10 @@ import Footer from '../../Shared/Footer/Footer';
 const Main = () => {
     return (
         <div>
-            <NoticeMarquee />
-            <Navbar />
-            <Outlet />
-            <Footer />
+            <NoticeMarquee/>
+            <Navbar/>
+            <Outlet/>
+            <Footer/>
         </div>
     );
 };
