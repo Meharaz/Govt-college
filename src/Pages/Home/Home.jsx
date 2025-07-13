@@ -1,9 +1,10 @@
 import React from 'react';
+import AutoSlider from './AutoSlider/AutoSlider';
 
 const Home = () => {
     return (
         <div>
-            Hello
+            <AutoSlider />
         </div>
     );
 };
