@@ -10,7 +10,7 @@ const Navbar = () => {
     </>;
 
     return (
-        <div className='fixed  w-full z-50'>
+        <div className='w-full z-50'>
             <div className="navbar bg-[#00809D] text-white font-serif justify-between">
                 
                 {/* Mobile Dropdown (Left) */}
