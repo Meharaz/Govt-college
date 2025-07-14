@@ -34,11 +34,12 @@ export default function Footer() {
         <div>
           <h3 className="text-xl font-semibold mb-4">QUICK LINKS</h3>
           <ul className="space-y-2 text-gray-600">
-            <li><span className="text-yellow-500"> ❯</span> Charity & Donation</li>
-            <li><span className="text-yellow-500"> ❯</span> Mosque Development</li>
-            <li><span className="text-yellow-500"> ❯</span> Muslim Matrimonial</li>
-            <li><span className="text-yellow-500"> ❯</span> Special Child Care</li>
-            <li><span className="text-yellow-500"> ❯</span> Quran Memorization</li>
+            <li><span className="text-yellow-500"> ❯</span> কলেজ গড়ার ইতিহাস</li>
+            <li><span className="text-yellow-500"> ❯</span> মহান স্বাধীনতা ও মানবাধিকার দিবস</li>
+            <li><span className="text-yellow-500"> ❯</span> মহান শহীদ দিবস</li>
+            <li><span className="text-yellow-500"> ❯</span> জাতীয় শোক দিবস</li>
+            <li><span className="text-yellow-500"> ❯</span> মহান বিজয় দিবস</li>
+
           </ul>
         </div>
 
@@ -46,10 +47,10 @@ export default function Footer() {
         <div>
           <h3 className="text-xl font-semibold mb-4">QUICK LINKS</h3>
           <ul className="space-y-2 text-gray-600">
-            <li> <span className="text-yellow-500"> ❯</span> About</li>
-            <li> <span className="text-yellow-500"> ❯</span> Contact</li>
-            <li> <span className="text-yellow-500"> ❯</span> Events</li>
-            <li> <span className="text-yellow-500"> ❯</span> Services</li>
+            <li> <span className="text-yellow-500"> ❯</span> Ministry of Education</li>
+            <li> <span className="text-yellow-500"> ❯</span> Directorate of Higher Education</li>
+            <li> <span className="text-yellow-500"> ❯</span> National University</li>
+            <li> <span className="text-yellow-500"> ❯</span> Chattogram Education Board</li>
             <li> <span className="text-yellow-500"> ❯</span> Our Blog</li>
           </ul>
         </div>
