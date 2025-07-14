@@ -23,22 +23,22 @@ const Navbar = () => {
           <img
             src={img2}        
             alt="Government of Bangladesh"
-            className="h-14 w-auto"
+            className="h-14 w-auto justify-items-end"
           />
 
           {/* College crest */}
           <img
             src={img1}  
             alt="College Logo"
-            className="h-14 w-auto"
+            className="h-14 w-auto justify-stretch"
           />
 
           {/* Bilingual name */}
-          <div className="text-center leading-tight">
+          <div className="text-center leading-tight ">
             <h1 className="text-xl md:text-2xl font-bold text-blue-800">
              বান্দরবান সরকারি মহিলা কলেজ 
             </h1>
-            <p className="text-sm md:text-base font-semibold text-gray-800">
+            <p className=" md:text-base font-semibold text-gray-800">
               Bandarban Govt. Women College
             </p>
           </div>

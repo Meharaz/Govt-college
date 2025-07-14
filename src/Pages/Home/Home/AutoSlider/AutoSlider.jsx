@@ -23,7 +23,7 @@ const AutoSlider = () => {
     {
       id: 3,
       url: slider3,
-      title: 'Science & Computer Labs',
+      title: 'কম্পিউটার ও সায়েন্স ল্যাব',
       description: 'Explore our fully equipped Science and Computer Labs, where students experiment, innovate, and gain hands-on experience with modern technology.',
       buttonText: 'Get Started',
     },
