@@ -1,12 +1,10 @@
 import React from 'react';
-import AutoSlider from '../Home/AutoSlider/AutoSlider'
-import NewsEvents from '../NewsEvents/NewsEvents';
+import AutoSlider from './AutoSlider/AutoSlider';
 
 const Home = () => {
     return (
         <div>
             <AutoSlider />
-            <NewsEvents />
         </div>
     );
 };
