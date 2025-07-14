@@ -1,4 +1,5 @@
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaPinterestP } from "react-icons/fa";
+import img2 from '../../assets/Logo/Main Logo.png';
 
 export default function Footer() {
   return (
@@ -7,15 +8,15 @@ export default function Footer() {
         {/* Logo + Description */}
         <div>
           <div className="flex items-center gap-2 text-3xl font-bold text-black">
-            <div className="text-yellow-500 text-4xl">🏛</div>
+            <div className="text-yellow-500 text-4xl">
+              <img src={img2} alt="" />
+            </div>
             <span>
-              Bandarban  <span className="text-yellow-500">Govt. Women</span> College
+              বান্দরবান সরকারি মহিলা কলেজ
             </span>
           </div>
           <p className="mt-4 text-gray-600 leading-relaxed">
-            Istiqbal Islamic Center is a vibrant and welcoming community hub
-            that serves as a focal point for Muslims seeking spiritual growth,
-            community engagement, and cultural enrichment.
+            বান্দরবান সরকারি মহিলা কলেজ। এ অঞ্চলের প্রতিটি প্রান্তে ছড়িয়ে পড়েছে নারী শিক্ষার আলোকধারা। শিক্ষা, সংস্কৃতি ও মূল্যবোধে গর্বিত প্রতিষ্ঠান।
           </p>
           {/* Social Icons */}
           <div className="flex gap-4 mt-6">
