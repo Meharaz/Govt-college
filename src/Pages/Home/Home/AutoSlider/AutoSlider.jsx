@@ -59,7 +59,7 @@ const AutoSlider = () => {
               {slides[currentIndex].title}
             </h2>
             <p className="text-lg md:text-xl">{slides[currentIndex].description}</p>
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded-full shadow-md transition">
+            <button className="bg-orange-400 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded-full shadow-md transition">
               {slides[currentIndex].buttonText}
             </button>
           </div>
