@@ -121,7 +121,7 @@ const MainSection = () => {
           </div>
 
           {/* Section Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 p-6">
             {sections.map((section, index) => (
               <div key={index} className="border rounded-lg p-4 shadow-md bg-white hover:shadow-lg transition">
                 <div className="flex items-center gap-2 mb-2">
