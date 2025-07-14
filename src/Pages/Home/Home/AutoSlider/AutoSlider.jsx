@@ -45,7 +45,7 @@ const AutoSlider = () => {
   }, [currentIndex]);
 
   return (
-    <div className="relative w-full h-[500px] overflow-hidden">
+    <div className="relative w-full h-[700px] overflow-hidden">
       <div
         className="w-full h-full bg-cover bg-center duration-700"
         style={{
