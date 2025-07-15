@@ -4,14 +4,19 @@ import MainSection from '../MainSection/MainSection';
 import NewsEvents from '../NewsEvents/NewsEvents';
 import PictureGallary from '../PictureGallary/PictureGallary';
 
+import News from '../News/News';
+import Gallery from '../Gallery/Gallery';
+
 
 const Home = () => {
     return (
         <div>
             <AutoSlider />
             <MainSection />
-            <NewsEvents />
-            <PictureGallary/>
+            <News/>
+            <Gallery/>
+           
+            
         </div>
     );
 };
